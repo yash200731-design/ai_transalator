@@ -1,0 +1,6 @@
+{
+  "name": "AI Translator",
+  "description": "A modern, highly responsive translation application with glassmorphism styling, featuring history tracking, language search, auto-detection, copy options, and text-to-speech features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
