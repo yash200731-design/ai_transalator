@@ -154,9 +154,10 @@ export default function App() {
         return updated;
       });
 
-    } catch (e) {
+    } catch (e: any) {
       console.error(e);
-      showToast('Translation request failed. Please check your connection.', 'error');
+      const errMsg = e.message || 'Translation request failed. Please check your connection.';
+      showToast(errMsg, 'error');
     } finally {
       setIsTranslating(false);
     }
